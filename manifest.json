@@ -1,0 +1,17 @@
+{
+  "name": "한국주식 급등 선행 스캐너 V8",
+  "short_name": "주식스캐너 V8",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0b1220",
+  "theme_color": "#101827",
+  "lang": "ko",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
