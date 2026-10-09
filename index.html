@@ -122,7 +122,6 @@
           const prevPrice = prices[prices.length - 2];
           const changeRate = ((currentPrice - prevPrice) / prevPrice) * 100;
           
-          // 가상의 점수 계산 (변동률 기반)
           const score = Math.min(100, Math.max(40, Math.floor(60 + changeRate * 5 + Math.random() * 10)));
 
           loadedData.push({
